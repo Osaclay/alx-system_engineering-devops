@@ -1,8 +1,9 @@
-Web Infrastructure Design
+Web Infrastructure Design:
 
 ALX SE web infrastructure design project. This project aims at learning how to design a Web Infrastructure.
 
-Key concepts
+Key concepts:
+
 •	Network basics
 •	Server
 •	Web server
@@ -15,14 +16,17 @@ Key concepts
 •	HTTP & HTTPS
 •	Firewall
 
-File Descriptions
+File Descriptions:
+
 Each file on this project directory contains a link to an image uploaded to and hosted on https//www.imgbox.com
 All the images are designed based on the following requirements:
 
-0-simple_web_stack
+0-simple_web_stack:
+
 On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via www.foobar.com. Start your explanation by having a user wanting to access your website.
 
 You must use:
+
 •	1 physical server
 •	1 web server (Nginx)
 •	1 application server
@@ -30,10 +34,12 @@ You must use:
 •	1 database (MySQL)
 •	1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
 
-1-distributed_web_infrastructure
+1-distributed_web_infrastructure:
+
 On a whiteboard, design a three servers web infrastructure that host the website www.foobar.com.
 
 You must add to 0-simple_web_stack:
+
 •	2 physical servers
 •	1 web server (Nginx)
 •	1 application server
@@ -41,33 +47,40 @@ You must add to 0-simple_web_stack:
 •	1 application files (your code base)
 •	1 database (MySQL)
 
-2-secured_and_monitored_web_infrastructure
+2-secured_and_monitored_web_infrastructure:
+
 On a whiteboard, design a three servers web infrastructure that host the website www.foobar.com, it must be secured, serve encrypted traffic and be monitored.
 
 You must add to 1-distributed_web_infrastructure:
+
 •	3 firewalls
 •	1 SSL certificate to serve www.foobar.com over HTTPS
 •	3 monitoring clients (data collector for Sumologic or other monitoring services)
 
-3-scale_up
+3-scale_up:
 
 You must add to 2-secured_and_monitored_web_infrastructure:
+
 •	1 physical server
 •	1 load-balancer (HAproxy) configured as cluster with the other one
 •	Split components (web server, application server, database) with their own server
 
 Files
 
-Filename	Description
+Filename and Description
 
-0-simple_web_stack
+0-simple_web_stack:
+
 Web Infrastructure Design with a LAMP stack. This contains: 1 server, 1 web server, 1 application server, 1 database and 1 domain name
 
-1-distributed_web_infrastructure
+1-distributed_web_infrastructure:
+
 Web Infrastructure Design, based on 0-simple_web_stack that contains some additional components: 1 server, 1 web server, 1 application server, 1 load-balancer, 1 set of application files, 1 database
 
-2-secured_and_monitored_web_infrastructure
+2-secured_and_monitored_web_infrastructure:
+
 Web Infrastructure Design, based on 1-distributed_web_infrastructure that contains some additional components: 3 firewalls, 1 SSL certificate, 3 monitoring clients
 
-3-scale_up
+3-scale_up:
+
 Web Infrastructure Design, based on 2-secured_and_monitored_web_infrastructure that contains some additional components: 1 server, 1 load-balancer

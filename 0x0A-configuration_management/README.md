@@ -1,4 +1,5 @@
 Configuration Management
+
 This project highlights the use of Puppet as a configuration management tool. 
 It includes writing Puppet manifest files to create a file, install a package, and execute a command.
 

@@ -1,2 +1,1 @@
-LOAD BALANCER. Alx system engineering devops project.
-
+Load balancer, web server Alx system engineering devops project.
